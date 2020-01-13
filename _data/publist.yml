@@ -6,6 +6,7 @@
     url: https://www.frontiersin.org/articles/10.3389/fmolb.2019.00026/full
     display:  Frontiers in Molecular Biosciences. 6, 26 (2019)
   highlight: 1
+  paper: paper
   code:
     url: https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/HR_MAS
     display: code
@@ -18,6 +19,7 @@
     url: https://www.frontiersin.org/articles/10.3389/fmicb.2018.01245/full
     display: Frontiers in Microbiology. 9, 1245. (2018)
   highlight: 1
+  paper: paper
   code:
     url:
     display:
@@ -30,6 +32,7 @@
     url: https://link.springer.com/article/10.1007/s40484-017-0129-y
     display: Quantitative Biology. 5, 328-337. (2017)
   highlight: 1
+  paper: paper
   code:
     url:
     display:
@@ -42,6 +45,7 @@
     url: https://cancercommun.biomedcentral.com/articles/10.1186/s40880-017-0255-y
     display: Chinese Journal of Cancer. 36, 88. (2017)
   highlight: 1
+  paper: paper
   code:
     url:
     display:
@@ -54,6 +58,7 @@
     url: https://www.frontiersin.org/articles/10.3389/fpls.2016.00429/full
     display: Front. Plant Sci 7, 429. (2016)
   highlight: 1
+  paper: paper
   code:
     url: https://github.com/mikeaalv/phase
     display: code
@@ -66,6 +71,7 @@
     url: http://www.plantphysiol.org/content/170/4/2095
     display: Physiology 170, 2095-2109. (2016)
   highlight: 1
+  paper: paper
   code:
     url:
     display:
