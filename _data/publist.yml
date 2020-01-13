@@ -1,15 +1,14 @@
-- title: Continuous in vivo Metabolism by NMR
+- title: "Continuous in vivo Metabolism by NMR"
   image:
   description: We develop a new developement on NMR to measure in vivo metabolism. Corresponding analytic and modeling projects are in developement.
-  authors: Judge Michael T., Wu Yue, Tayyari Fariba, Hattori Ayuna, Glushka John, Ito Takahiro, Arnold
-Jonathan, Edison Arthur S
+  authors: Judge Michael T., Wu Yue, Tayyari Fariba, Hattori Ayuna, Glushka John, Ito Takahiro, Arnold Jonathan, Edison Arthur S
   link:
     url: https://www.frontiersin.org/articles/10.3389/fmolb.2019.00026/full
     display:  Frontiers in Molecular Biosciences. 6: 26 (2019)
   highlight: 1
   news2: <a https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/HR_MAS> code </a>
 
-- title: Genome-Wide Analysis Reveals Ancestral Lack of Seventeen Different tRNAs and Clade-Specific Loss of tRNA-CNNs in Archaea
+- title: "Genome-Wide Analysis Reveals Ancestral Lack of Seventeen Different tRNAs and Clade-Specific Loss of tRNA-CNNs in Archaea"
   image:
   description:
   authors: Wu Yue, Wu Ping, Wang Bin, Shao Zhu-Qing
@@ -19,7 +18,7 @@ Jonathan, Edison Arthur S
   highlight: 1
   news2:
     
-- title: Transcription regulation by DNA methylation under stressful conditions in human cancer
+- title: "Transcription regulation by DNA methylation under stressful conditions in human cancer"
   image:
   description:
   authors: Sha Cao, Yi Zhou, Yue Wu, Tianci Song, Burair Alsaihati, and Ying Xu
@@ -29,7 +28,7 @@ Jonathan, Edison Arthur S
   highlight: 1
   news2:
     
-- title: Systematic analyses of glutamine and glutamate metabolisms across different cancer types
+- title: "Systematic analyses of glutamine and glutamate metabolisms across different cancer types"
   image:
   description:
   authors: Yuan Tian, Wei Du, Sha Cao, Yue Wu, Ning Dong, Yan Wang, and Ying Xu
@@ -39,7 +38,7 @@ Jonathan, Edison Arthur S
   highlight: 1
   news2:
 
-- title: Identification of Arbuscular Mycorrhiza (AM)-Responsive microRNAs in Tomato
+- title: "Identification of Arbuscular Mycorrhiza (AM)-Responsive microRNAs in Tomato"
   image:
   description:
   authors: Ping Wu, Yue Wu, Cheng-Chen Liu, Li-Wei Liu, Fang-Fang Ma, Xiao-Yi Wu, Mian Wu, Yue-Yu Hang, Jian-Qun Chen, Zhu-Qing Shao, and Bin Wang
@@ -49,7 +48,7 @@ Jonathan, Edison Arthur S
   highlight: 1
   news2: <a https://github.com/mikeaalv/phase> code </a>
 
-- title: Large-scale analyses of angiosperm nucleotide-binding site-leucine-rich repeat (NBS-LRR) genes reveal three anciently diverged classes with distinct evolutionary patterns
+- title: "Large-scale analyses of angiosperm nucleotide-binding site-leucine-rich repeat (NBS-LRR) genes reveal three anciently diverged classes with distinct evolutionary patterns"
   image:
   description:
   authors: Ping Wu, Yue Wu, Cheng-Chen Liu, Li-Wei Liu, Fang-Fang Ma, Xiao-Yi Wu, Mian Wu, Yue-Yu Hang, Jian-Qun Chen, Zhu-Qing Shao, and Bin Wang
