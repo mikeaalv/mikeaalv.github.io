@@ -13,7 +13,7 @@ permalink: /Publications/
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <p href="{{ publi.code.url }}">{{ publi.code.display }}</p>
+  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
 
 {% endfor %}
 
