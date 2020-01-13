@@ -6,7 +6,9 @@
     url: https://www.frontiersin.org/articles/10.3389/fmolb.2019.00026/full
     display:  Frontiers in Molecular Biosciences. 6, 26 (2019)
   highlight: 1
-  news2: <a https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/HR_MAS> code </a>
+  code:
+    url: https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/HR_MAS
+    display: code
 
 - title: "Genome-Wide Analysis Reveals Ancestral Lack of Seventeen Different tRNAs and Clade-Specific Loss of tRNA-CNNs in Archaea"
   image:
@@ -16,7 +18,9 @@
     url: https://www.frontiersin.org/articles/10.3389/fmicb.2018.01245/full
     display: Frontiers in Microbiology. 9, 1245. (2018)
   highlight: 1
-  news2:
+  code:
+    url:
+    display: 
     
 - title: "Transcription regulation by DNA methylation under stressful conditions in human cancer"
   image:

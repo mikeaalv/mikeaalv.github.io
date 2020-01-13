@@ -17,7 +17,7 @@ permalink: /Publications/
 
 {% endfor %}
 
-<!-- {% assign number_printed = 0 %}
+{% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -49,7 +49,7 @@ permalink: /Publications/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %} -->
+{% endif %}
 
 <p> &nbsp; </p>
 
