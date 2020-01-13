@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Teaching"
+title: "Yue Wu - Teaching"
 layout: gridlay
-excerpt: "Allan Lab -- Teaching."
+excerpt: "Yue Wu -- Teaching."
 sitemap: false
 permalink: /Teaching/
 ---

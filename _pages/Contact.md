@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Contact"
+title: "Yue Wu - Contact"
 layout: gridlay
-excerpt: "Allan Lab -- Contact."
+excerpt: "Yue Wu -- Contact."
 sitemap: false
 permalink: /Contact/
 ---

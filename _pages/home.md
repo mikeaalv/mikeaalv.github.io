@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "Yue Wu - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Yue Wu at University of Georgia."
 sitemap: false
 permalink: /
 ---
@@ -41,7 +41,7 @@ We are a dynamic research group at the [Leiden Institute of Physics](http://www.
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SmartTipSide.jpg" alt="Slide 6" />
-        </div>       
+        </div>
          <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 7" />
         </div>
