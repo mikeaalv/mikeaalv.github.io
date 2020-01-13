@@ -1,9 +1,9 @@
 ---
-title: "Allan Lab - Publications"
+title: "Allan Lab - Teaching"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Allan Lab -- Teaching."
 sitemap: false
-permalink: /publications/
+permalink: /Teaching/
 ---
 
 
@@ -60,4 +60,3 @@ permalink: /publications/
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
-

@@ -1,9 +1,9 @@
 ---
-title: "Allan Lab - Publications"
+title: "Allan Lab - Contact"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Allan Lab -- Contact."
 sitemap: false
-permalink: /publications/
+permalink: /Contact/
 ---
 
 
