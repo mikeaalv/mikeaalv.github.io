@@ -20,7 +20,7 @@
   highlight: 1
   code:
     url:
-    display: 
+    display:
     
 - title: "Transcription regulation by DNA methylation under stressful conditions in human cancer"
   image:
@@ -30,7 +30,9 @@
     url: https://link.springer.com/article/10.1007/s40484-017-0129-y
     display: Quantitative Biology. 5, 328-337. (2017)
   highlight: 1
-  news2:
+  code:
+    url:
+    display:
     
 - title: "Systematic analyses of glutamine and glutamate metabolisms across different cancer types"
   image:
@@ -40,7 +42,9 @@
     url: https://cancercommun.biomedcentral.com/articles/10.1186/s40880-017-0255-y
     display: Chinese Journal of Cancer. 36, 88. (2017)
   highlight: 1
-  news2:
+  code:
+    url:
+    display:
 
 - title: "Identification of Arbuscular Mycorrhiza (AM)-Responsive microRNAs in Tomato"
   image:
@@ -50,7 +54,9 @@
     url: https://www.frontiersin.org/articles/10.3389/fpls.2016.00429/full
     display: Front. Plant Sci 7, 429. (2016)
   highlight: 1
-  news2: <a https://github.com/mikeaalv/phase> code </a>
+  code:
+    url: https://github.com/mikeaalv/phase
+    display: code
 
 - title: "Large-scale analyses of angiosperm nucleotide-binding site-leucine-rich repeat (NBS-LRR) genes reveal three anciently diverged classes with distinct evolutionary patterns"
   image:
@@ -60,4 +66,6 @@
     url: http://www.plantphysiol.org/content/170/4/2095
     display: Physiology 170, 2095-2109. (2016)
   highlight: 1
-  news2:
+  code:
+    url:
+    display:

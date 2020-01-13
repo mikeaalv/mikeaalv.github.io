@@ -13,11 +13,11 @@ permalink: /Publications/
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <p> {{ publi.news2 }}</p>
+  <p href="{{ publi.code.url }}">{{ publi.code.display }}</p>
 
 {% endfor %}
 
-{% assign number_printed = 0 %}
+<!-- {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -51,7 +51,7 @@ permalink: /Publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
 # Talks and Posters
