@@ -1,9 +1,35 @@
-- title: xx
-  image: xx.png
-  description: xx
-  authors: xx
+- title: "A new algorithm for time series NMR spectra quantification by ridge tracking"
+  image:
+  description:
+  authors: Yue Wu, Michael T. Judge, Jonathan Arnold, Suchi Bhandarkar, and Arthur S. Edison
   link:
-    url: xx
-    display:  journal
+    url: http://mana2019.ibb.gatech.edu
+    display: MANA 2019
   highlight: 1
-  news2: 
+  file:
+    url:
+    display: pdf (shared later)
+
+- title: "Dynamic metabolic modelling based on in vivo, time series measurements"
+  image:
+  description:
+  authors: Yue Wu, Michael Judge, Jonathan Arnold, Arthur S. Edison, and Heinz-Bernd Schüttler
+  link:
+    url: https://www.pearc19.pearc.org
+    display: PEARC 2019
+  highlight: 1
+  file:
+    url:
+    display: pdf (shared later)
+
+- title: "Large-scale kinetic modeling of Neurospora crassa driven by real-time, in-vivo metabolomics data"
+  image:
+  description:
+  authors: Yue Wu, Michael Judge, Heinz-Bernd Schüttler, Jonathan Arnold, and Arthur S. Edison
+  link:
+    url: http://metabolomics2018.org
+    display: Metabolomics 2018
+  highlight: 1
+  file:
+    url:
+    display: pdf (shared later)
