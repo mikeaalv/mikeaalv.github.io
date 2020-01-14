@@ -8,7 +8,7 @@
   highlight: 1
   file:
     url:
-    display: pdf (shared later)
+    display: talk (shared later)
 
 - title: "Dynamic metabolic modelling based on in vivo, time series measurements"
   image:
@@ -20,7 +20,7 @@
   highlight: 1
   file:
     url:
-    display: pdf (shared later)
+    display: poster (shared later)
 
 - title: "Large-scale kinetic modeling of Neurospora crassa driven by real-time, in-vivo metabolomics data"
   image:
@@ -31,5 +31,5 @@
     display: Metabolomics 2018
   highlight: 1
   file:
-    url:
-    display: pdf (shared later)
+    url: https://www.dropbox.com/s/1qco2kaon3as9ya/poster.final2.pdf?dl=0
+    display: poster
