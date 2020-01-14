@@ -6,7 +6,7 @@ sitemap: false
 permalink: /Contact/
 ---
 
-Yue Wu
+Yue Wu (Yue.Wu \[at\] uga.edu)
 
 315 Riverbend Rd,
 
