@@ -7,8 +7,8 @@
     display: MANA 2019
   highlight: 1
   file:
-    url:
-    display: talk (shared later)
+    url: https://www.dropbox.com/s/al4brnjpjj5906o/mana_talk_YUEWU.pdf?dl=0
+    display: talk
 
 - title: "Dynamic metabolic modelling based on in vivo, time series measurements"
   image:
@@ -19,8 +19,8 @@
     display: PEARC 2019
   highlight: 1
   file:
-    url:
-    display: poster (shared later)
+    url: https://www.dropbox.com/s/i3ln8kkn5efy7nv/poster.final3.pdf?dl=0
+    display: poster
 
 - title: "Large-scale kinetic modeling of Neurospora crassa driven by real-time, in-vivo metabolomics data"
   image:
