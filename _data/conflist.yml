@@ -1,3 +1,15 @@
+- title: "PyTorch-Based Neural Network Approximation of ODE Solutions"
+  image:
+  description:
+  authors: Yue Wu, Michael Judge, Jonathan Arnold, Arthur Edison, Shannon Quinn, and Heinz-Bernd Schuttler
+  link:
+    url: https://www.scipy2020.scipy.org
+    display: SciPy 2020
+  highlight: 1
+  file:
+    url: https://mikeaalv.github.io/NeuralSimODE/scipy2020/present
+    display: poster
+    
 - title: "A new algorithm for time series NMR spectra quantification by ridge tracking"
   image:
   description:
