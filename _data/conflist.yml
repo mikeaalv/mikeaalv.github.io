@@ -8,7 +8,7 @@
   highlight: 1
   file:
     url: https://www.dropbox.com/s/bpvuy0kovfwpsgt/poster.pdf?dl=0
-    display: p
+    display: poster
 
 - title: "PyTorch-Based Neural Network Approximation of ODE Solutions"
   image:
