@@ -1,3 +1,16 @@
+- title: "RTExtract: time-series NMR spectra quantification based on 3D surface ridge tracking"
+  image:
+  description: We develop a computational approach for quantifying time series NMR effectively
+  authors: Yue Wu, Michael T Judge, Jonathan Arnold, Suchendra M Bhandarkar, Arthur S Edison
+  link:
+    url: https://doi.org/10.1093/bioinformatics/btaa631
+    display:  Bioinformatics. (2020)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/ridge_tracking
+    display: code
+
 - title: "Continuous in vivo Metabolism by NMR"
   image:
   description: We develop a new developement on NMR to measure in vivo metabolism. Corresponding analytic and modeling projects are in developement.
