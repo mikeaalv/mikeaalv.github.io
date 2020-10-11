@@ -1,3 +1,15 @@
+- title: "Semi-untargeted analysis of metabolic dynamics through network construction"
+  image:
+  description:
+  authors: Yue Wu, Michael Judge, Jonathan Arnold, and Arthur Edison
+  link:
+    url: https://www.mana2020.org/home
+    display: MANA 2020
+  highlight: 1
+  file:
+    url: https://www.dropbox.com/s/bpvuy0kovfwpsgt/poster.pdf?dl=0
+    display: p
+
 - title: "PyTorch-Based Neural Network Approximation of ODE Solutions"
   image:
   description:
