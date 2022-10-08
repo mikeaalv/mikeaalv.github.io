@@ -1,3 +1,43 @@
+- title: "Uncovering in vivo biochemical patterns from time-series metabolic
+dynamics"
+  image:
+  description: integration of high-dimensional metabolomics time series
+  authors: Yue Wu, Michael T Judge, Arthur S Edison, and Jonathan Arnold
+  link:
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268394
+    display:  PloS one. (2022)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/net_ana
+    display: code
+
+- title: "Characterizing the gene–environment interaction underlying natural morphological variation in Neurospora crassa conidiophores using high- throughput phenomics and transcriptomics"
+  image:
+  description: image classificaiton based pheotyping
+  authors: Emily K Krach, Michael Skaro, Yue Wu, Jonathan Arnold
+  link:
+    url: https://academic.oup.com/g3journal/article/12/4/jkac050/6539759
+    display:  G3. (2022)
+  highlight: 1
+  paper: paper
+  code:
+    url:
+    display:
+
+- title: "Wild Isolates of Neurospora crassa Reveal Three Conidiophore Architectural Phenotypes"
+  image:
+  description: image classificaiton based pheotyping
+  authors: Krach, E.K.; Wu, Y.; Skaro, M.; Mao, L.; Arnold, J.
+  link:
+    url: https://www.mdpi.com/2076-2607/8/11/1760
+    display:  Microorganisms. (2020)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/michaelSkaro/image_classification
+    display: code
+
 - title: "RTExtract: time-series NMR spectra quantification based on 3D surface ridge tracking"
   image:
   description: We develop a computational approach for quantifying time series NMR effectively
