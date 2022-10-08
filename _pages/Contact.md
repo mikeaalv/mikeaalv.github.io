@@ -6,8 +6,8 @@ sitemap: false
 permalink: /Contact/
 ---
 
-Yue Wu (Yue.Wu \[at\] uga.edu)
+Yue Wu (yuewu135 \[at\] stanford.edu)
 
-315 Riverbend Rd,
+3165 Porter Drive,
 
-Athens, GA 30602
+Palo Alto, CA 94304
