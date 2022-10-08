@@ -1,3 +1,28 @@
+- title: "SAND: spectral automatic NMR deconvolution"
+  image:
+  description:
+  authors: Yue Wu, Omid Sanati, Frank Delaglio, and Arthur S. Edison
+  link:
+    url: https://ivanmr.com
+    display: ivan nmr
+  highlight: 1
+  file:
+    url: https://www.dropbox.com/s/ubucxl0y09firx4/ivan_talk2.pdf?dl=0
+    display: talk
+
+- title: "Automatic NMR spectral decomposition through computational fitting of time-domain signals"
+  image:
+  description:
+  authors: Yue Wu, Goncalo Gouveia, Sicong Zhang, Krish Krishnamurthy, Frank Delaglio, and Arthur S. Edison
+  link:
+    url: https://u.osu.edu/mana2021/
+    display: MANA 2021
+  highlight: 1
+  file:
+    url: https://www.dropbox.com/s/l8hrsyy54thbqjj/mana.2021.key?dl=0
+    display: talk
+    
+
 - title: "Semi-untargeted analysis of metabolic dynamics through network construction"
   image:
   description:
