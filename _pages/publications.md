@@ -58,14 +58,4 @@ See the full list of publications at [Google Scholar](https://scholar.google.com
 <p> &nbsp; </p> -->
 
 
-<!-- # Talks and Posters
 
-{% for publi in site.data.conflist %}
-
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="{{ publi.file.url }}">{{ publi.file.display }}</a>
-
-
-{% endfor %} -->
