@@ -1,3 +1,91 @@
+- title: "Glucose360: An Open-Source Python Platform with Event-Based Integration for Continuous Glucose Monitoring Data Analysis"
+  image:
+  description: CGM preprocessing
+  authors: B Ehlert, D Aron, D Perelman, Y Wu, MP Snyder
+  link:
+    url: https://www.liebertpub.com/doi/abs/10.1177/15209156251374711
+    display:  Diabetes Technology & Therapeutics. (2025)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/dhruv-aron/Glucose360
+    display: code
+
+- title: "Prediction of metabolic subphenotypes of type 2 diabetes via continuous glucose monitoring and machine learning"
+  image:
+  description: CGM + ML
+  authors: Ahmed A Metwally, Dalia Perelman, Heyjun Park, Yue Wu, Alokkumar Jha, Seth Sharp, Alessandra Celli, Ekrem Ayhan, Fahim Abbasi, Anna L Gloyn, Tracey McLaughlin, Michael P Snyder
+  link:
+    url: https://www.nature.com/articles/s41551-024-01311-6
+    display:  nature biomedical engineering. (2025)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/aametwally/Metabolic_Subphenotype_Predictor
+    display: code
+
+- title: "High-resolution lifestyle profiling and metabolic subphenotypes of type 2 diabetes"
+  image:
+  description: CGM
+  authors: Heyjun Park, Ahmed A Metwally, Alireza Delfarah, Yue Wu, Dalia Perelman, Caleb Mayer, Curtis McGinity, Majid Rodgar, Alessandra Celli, Tracey McLaughlin, Emmanuel Mignot, Michael Snyder
+  link:
+    url: https://www.nature.com/articles/s41746-025-01728-6
+    display:  npj Digital Medicine. (2025)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/mikeaalv/lifestyle_glucose_control
+    display: code
+
+- title: "Individual variations in glycemic responses to carbohydrates and underlying metabolic physiology"
+  image:
+  description: CGM + meals
+  authors: Yue Wu, Ben Ehlert, Ahmed A Metwally, Dalia Perelman, Heyjun Park, Andrew Wallace Brooks, Fahim Abbasi, Basil Michael, Alessandra Celli, Caroline Bejikian, Ekrem Ayhan, Yingzhou Lu, Samuel M Lancaster, Daniel Hornburg, Lucia Ramirez, David Bogumil, Sarah Pollock, Frank Wong, Denver Bradley, Georg Gutjahr, Ekanath Srihari Rangan, Tao Wang, Lettie McGuire, P Venkat Rangan, Helge Ræder, Zohar Shipony, Doron Lipson, Tracey McLaughlin, Michael P Snyder
+  link:
+    url: https://www.nature.com/articles/s41591-025-03719-2
+    display:  Nature Medicine. (2025)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/mikeaalv/cgm_meal_manuscript
+    display: code
+
+- title: "MINE: a new way to design genetics experiments for discovery"
+  image:
+  description: model + experiment design
+  authors: Isaac Torres, Shufan Zhang, Amanda Bouffier, Michael Skaro, Yue Wu, Lauren Stupp, Jonathan Arnold, Y Anny Chung, H-Bernd Schuttler
+  link:
+    url: https://academic.oup.com/bib/article/26/2/bbaf167/8114461
+    display:  Briefings in bioinformatics. (2025)
+  highlight: 1
+  paper: paper
+
+- title: "Computer vision models enable mixed linear modeling to predict arbuscular mycorrhizal fungal colonization using fungal morphology"
+  image:
+  description: Image ML
+  authors: Shufan Zhang, Yue Wu, Michael Skaro, Jia-Hwei Cheong, Amanda Bouffier-Landrum, Isaac Torrres, Yinping Guo, Lauren Stupp, Brooke Lincoln, Anna Prestel, Camryn Felt, Sedona Spann, Abhyuday Mandal, Nancy Johnson, Jonathan Arnold
+  link:
+    url: https://www.nature.com/articles/s41598-024-61181-5
+    display:  Scientific Reports. (2024)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/Arnold-Lab/image_seg_sorghum_am
+    display: code
+
+- title: "SAND: automated time-domain modeling of NMR spectra applied to metabolite quantification"
+  image:
+  description: MCMC, metabolomics
+  authors: Yue Wu, Omid Sanati, Mario Uchimiya, Krish Krishnamurthy, Jonathan Wedell, Jeffrey C Hoch, Arthur S Edison, Frank Delaglio
+  link:
+    url: https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c03078
+    display:  Analytical Chemistry. (2024)
+  highlight: 1
+  paper: paper
+  code:
+    url: https://github.com/edisonomics/SAND
+    display: code
+
 - title: "Uncovering in vivo biochemical patterns from time-series metabolic
 dynamics"
   image:
