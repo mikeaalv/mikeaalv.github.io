@@ -6,7 +6,6 @@ sitemap: false
 permalink: /
 ---
 
-![]({{ site.url }}{{ site.baseurl }}/images/WuYue.jpg){: style="width: 300px; float: right; border: 10px"}
 
 I'm a postdoc fellow at Stanford, working with [Michael Snyder](https://med.stanford.edu/snyderlab.html) on time-series multi-omics profiling of chronic disease. I had my PhD at [Institute of Bioinformatics](https://iob.uga.edu) at [University of Georgia](https://www.uga.edu). I was advised by [Edison Arthur S](http://edison.ccrc.uga.edu), [Arnold Jonathan](https://www.genetics.uga.edu/directory/jonathan-arnold), and [Heinz-Bernd Schüttler](https://www.physast.uga.edu/people/heinz_bernd_schuttler). I graduated from [Nanjing University](https://www.nju.edu.cn/en/main.psp), where I worked on phylogenetics at the lab of [Jianqun Chen](https://life.nju.edu.cn/cjq_14885/list.htm) and worked with Zhuqing Shao and Bin Wang. Before graduate school, I have worked with [Ying Xu](http://csbl.bmb.uga.edu) on TCGA data and [Erez Lieberman Aiden](https://github.com/aidenlab/straw).
 

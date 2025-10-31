@@ -58,7 +58,7 @@ See the full list of publications at [Google Scholar](https://scholar.google.com
 <p> &nbsp; </p> -->
 
 
-# Talks and Posters
+<!-- # Talks and Posters
 
 {% for publi in site.data.conflist %}
 
@@ -68,4 +68,4 @@ See the full list of publications at [Google Scholar](https://scholar.google.com
   <a href="{{ publi.file.url }}">{{ publi.file.display }}</a>
 
 
-{% endfor %}
+{% endfor %} -->
