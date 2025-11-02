@@ -43,9 +43,8 @@
   authors: Yue Wu, Ben Ehlert, Ahmed A Metwally, Dalia Perelman, Heyjun Park, Andrew Wallace Brooks, Fahim Abbasi, Basil Michael, Alessandra Celli, Caroline Bejikian, Ekrem Ayhan, Yingzhou Lu, Samuel M Lancaster, Daniel Hornburg, Lucia Ramirez, David Bogumil, Sarah Pollock, Frank Wong, Denver Bradley, Georg Gutjahr, Ekanath Srihari Rangan, Tao Wang, Lettie McGuire, P Venkat Rangan, Helge Ræder, Zohar Shipony, Doron Lipson, Tracey McLaughlin, Michael P Snyder
   link:
     url: https://www.nature.com/articles/s41591-025-03719-2
-    display:  Nature Medicine. (2025)
+    display:  Nature Medicine. (2025) \r Reported by News Medical Life Science, Genetic Engineering & Biotechnology News, Stanford Medicine News, Bioengineer.org, American Council on Science and Health, and Labmate 
   highlight: 1
-  display: Reported by News Medical Life Science, Genetic Engineering & Biotechnology News, Stanford Medicine News, Bioengineer.org, American Council on Science and Health, and Labmate 
   paper: paper
   code:
     url: https://github.com/mikeaalv/cgm_meal_manuscript
