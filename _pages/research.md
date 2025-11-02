@@ -40,4 +40,4 @@ permalink: /Research/
 
     c. Krach EK, **Wu Y**, Skaro M, Mao L, Arnold J. Wild Isolates of Neurospora crassa Reveal Three Conidiophore Architectural Phenotypes. Microorganisms. 2020;8(11). PMCID: PMC7695285
 
-    d. Krach EK, Skaro M, **Wu Y**, Arnold J. Characterizing the gene–environment interaction underlying natural morphological variation in Neurospora crassa conidiophores using high-throughput phenomics and transcriptomics. G3 Genes|Genomes|Genetics. 2022;12(4). PMCID: PMC8982394
+    d. Krach EK, Skaro M, **Wu Y**, Arnold J. Characterizing the gene–environment interaction underlying natural morphological variation in Neurospora crassa conidiophores using high-throughput phenomics and transcriptomics. G3. 2022;12(4). PMCID: PMC8982394
