@@ -16,6 +16,7 @@ See the full list of publications at [Google Scholar](https://scholar.google.com
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   {{ publi.link.display }} <br />
+  {{ publi.link.display2 }} <br />
   <a href="{{ publi.link.url }}">{{ publi.paper }}</a> &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
 
