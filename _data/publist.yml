@@ -32,6 +32,7 @@
     url: https://www.nature.com/articles/s41746-025-01728-6
     display:  npj Digital Medicine. (2025)
   highlight: false
+  display2: Reported by News Medical Life Science and World Today News
   paper: paper
   code:
     url: https://github.com/mikeaalv/lifestyle_glucose_control
