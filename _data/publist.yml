@@ -5,7 +5,7 @@
   link:
     url: https://www.liebertpub.com/doi/abs/10.1177/15209156251374711
     display:  Diabetes Technology & Therapeutics. (2025)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/dhruv-aron/Glucose360
@@ -18,7 +18,7 @@
   link:
     url: https://www.nature.com/articles/s41551-024-01311-6
     display:  nature biomedical engineering. (2025)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/aametwally/Metabolic_Subphenotype_Predictor
@@ -31,7 +31,7 @@
   link:
     url: https://www.nature.com/articles/s41746-025-01728-6
     display:  npj Digital Medicine. (2025)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/mikeaalv/lifestyle_glucose_control
@@ -44,7 +44,7 @@
   link:
     url: https://www.nature.com/articles/s41591-025-03719-2
     display:  Nature Medicine. (2025) 
-  highlight: 1
+  highlight: true
   display2: Reported by News Medical Life Science, Genetic Engineering & Biotechnology News, Stanford Medicine News, Bioengineer.org, American Council on Science and Health, and Labmate
   paper: paper
   code:
@@ -58,7 +58,7 @@
   link:
     url: https://academic.oup.com/bib/article/26/2/bbaf167/8114461
     display:  Briefings in bioinformatics. (2025)
-  highlight: 1
+  highlight: false
   paper: paper
 
 - title: "Computer vision models enable mixed linear modeling to predict arbuscular mycorrhizal fungal colonization using fungal morphology"
@@ -68,7 +68,7 @@
   link:
     url: https://www.nature.com/articles/s41598-024-61181-5
     display:  Scientific Reports. (2024)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/Arnold-Lab/image_seg_sorghum_am
@@ -81,7 +81,7 @@
   link:
     url: https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c03078
     display:  Analytical Chemistry. (2024)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/edisonomics/SAND
@@ -95,7 +95,7 @@ dynamics"
   link:
     url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268394
     display:  PloS one. (2022)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/net_ana
@@ -108,7 +108,7 @@ dynamics"
   link:
     url: https://academic.oup.com/g3journal/article/12/4/jkac050/6539759
     display:  G3. (2022)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url:
@@ -121,7 +121,7 @@ dynamics"
   link:
     url: https://www.mdpi.com/2076-2607/8/11/1760
     display:  Microorganisms. (2020)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/michaelSkaro/image_classification
@@ -134,7 +134,7 @@ dynamics"
   link:
     url: https://doi.org/10.1093/bioinformatics/btaa631
     display:  Bioinformatics. (2020)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/ridge_tracking
@@ -147,7 +147,7 @@ dynamics"
   link:
     url: https://www.frontiersin.org/articles/10.3389/fmolb.2019.00026/full
     display:  Frontiers in Molecular Biosciences. 6, 26 (2019)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/artedison/Edison_Lab_Shared_Metabolomics_UGA/tree/master/metabolomics_toolbox/code/HR_MAS
@@ -160,7 +160,7 @@ dynamics"
   link:
     url: https://www.frontiersin.org/articles/10.3389/fmicb.2018.01245/full
     display: Frontiers in Microbiology. 9, 1245. (2018)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url:
@@ -173,7 +173,7 @@ dynamics"
   link:
     url: https://link.springer.com/article/10.1007/s40484-017-0129-y
     display: Quantitative Biology. 5, 328-337. (2017)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url:
@@ -186,7 +186,7 @@ dynamics"
   link:
     url: https://cancercommun.biomedcentral.com/articles/10.1186/s40880-017-0255-y
     display: Chinese Journal of Cancer. 36, 88. (2017)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url:
@@ -199,7 +199,7 @@ dynamics"
   link:
     url: https://www.frontiersin.org/articles/10.3389/fpls.2016.00429/full
     display: Front. Plant Sci 7, 429. (2016)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url: https://github.com/mikeaalv/phase
@@ -212,7 +212,7 @@ dynamics"
   link:
     url: http://www.plantphysiol.org/content/170/4/2095
     display: Physiology 170, 2095-2109. (2016)
-  highlight: 1
+  highlight: false
   paper: paper
   code:
     url:

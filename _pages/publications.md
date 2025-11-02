@@ -13,7 +13,9 @@ See the full list of publications at [Google Scholar](https://scholar.google.com
 
 {% for publi in site.data.publist %}
 
-  {{ publi.title }} <br />
+  <div class="title">
+      {% if publi.highlight %}<strong>{{ publi.title }}</strong>{% else %}{{ publi.title }}{% endif %}
+  </div>
   <em>{{ publi.authors }} </em><br />
   {{ publi.link.display }} <br />
   {{ publi.display2 }} <br />
