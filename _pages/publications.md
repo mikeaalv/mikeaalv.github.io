@@ -12,10 +12,10 @@ permalink: /Publications/
 See the full list of publications at [Google Scholar](https://scholar.google.com/citations?user=QE1tszYAAAAJ&hl=en)
 
 {% for publi in site.data.publist %}
-
+  
+  <br />
   <!-- {{ publi.title }} <br /> -->
-  {% if publi.highlight %}<strong>{{ publi.title }}</strong>{% else %}{{ publi.title }}{% endif %}
-
+  {% if publi.highlight %}<strong>{{ publi.title }}</strong>{% else %}{{ publi.title }}{% endif %}<br />
   <em>{{ publi.authors }} </em><br />
   {{ publi.link.display }} <br />
   {{ publi.display2 }} <br />
