@@ -7,6 +7,9 @@
     display:  Journal of diabetes science and technology. (2026)
   highlight: false
   paper: paper
+  code:
+    url:
+    display:
 
   - title: "Origin of the clock in Neurospora crassa"
   image:
@@ -17,6 +20,9 @@
     display:  Frontiers in molecular biosciences. (2025)
   highlight: false
   paper: paper
+  code:
+    url:
+    display:
 
 - title: "Glucose360: An Open-Source Python Platform with Event-Based Integration for Continuous Glucose Monitoring Data Analysis"
   image:
