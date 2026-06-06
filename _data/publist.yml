@@ -1,3 +1,16 @@
+- title: "A comparison of deep multiomics profiles across ethnicity, geography, and age"
+  image:
+  description: Multi-omics
+  authors: Barapour N; Cao JZ; Wu Y; Gupta S; Hoopmann MR; Qin R; Midha MK; Mireault M; Juanes-Velasco P; Hanson C et al.
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/42134306/
+    display:  Cell. (2026)
+  highlight: false
+  paper: paper
+  code:
+    url:
+    display:
+    
 - title: "Modifiable Factors Affecting the Postprandial Glycemic Response"
   image:
   description: CGM, PPGR
