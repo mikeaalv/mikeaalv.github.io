@@ -17,6 +17,15 @@ include:
   - .htaccess
   - _pages
 
+# Keep tooling out of the published site (setting exclude replaces
+# Jekyll's defaults, so the Gemfile/vendor defaults are repeated here)
+exclude:
+  - tests
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+
 sass:
   sass_dir: _sass
 

@@ -1,0 +1,34 @@
+# Notify-only site tests: runs on every push, does NOT deploy.
+# GitHub Pages keeps deploying from the branch as before; if a check
+# fails you get a red X on the commit and a notification email.
+name: Site tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby (same major version as GitHub Pages builders)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Validate _data YAML files
+        run: ruby tests/validate_data.rb
+
+      - name: Build site with the production GitHub Pages stack
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
