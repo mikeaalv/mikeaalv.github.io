@@ -154,6 +154,7 @@ firstp {
 	height: 128px;
 	flex-shrink: 0;
 	object-fit: cover;
+	object-position: top; /* keep heads in frame when cropping portrait photos square */
 	border-radius: 16px;
 	box-shadow: 2px 2px 5px #888888;
 	margin: 0;
