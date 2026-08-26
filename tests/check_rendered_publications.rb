@@ -88,21 +88,18 @@ error "publist block missing from page" if pub_block.empty?
 error 'page emits empty href="" links' if pub_block.include?('href=""')
 error "kramdown escaped closing tags (raw HTML block lost markdown=\"0\"?)" if html.include?("&lt;/div&gt;")
 
-# Descending numbering: newest entry gets the highest number, oldest gets 1.
-num_count = html.scan('<span class="pub-num">').size
-if num_count != publist.size
-  error "expected #{publist.size} pub-num spans, found #{num_count}"
-end
-unless html.include?(%(<span class="pub-num">#{publist.size}.</span>)) &&
-       html.include?('<span class="pub-num">1.</span>')
-  error "pub-num spans do not run from #{publist.size}. down to 1."
+# Ascending numbering: the newest entry (top of the page) is 1., the
+# oldest is N. scan preserves document order, so this checks order too.
+nums = html.scan(%r{<span class="pub-num">(\d+)\.</span>}).flatten.map(&:to_i)
+if nums != (1..publist.size).to_a
+  error "pub-num spans are not 1..#{publist.size} in page order (found: #{nums.first(3).join(',')}...)"
 end
 
 # Every entry carries an id="pub-N" anchor matching its visible number;
 # _pages/research.md deep-links citations as /Publications/#pub-N.
-anchor_nums = html.scan(/id="pub-(\d+)"/).flatten.map(&:to_i).sort
+anchor_nums = html.scan(/id="pub-(\d+)"/).flatten.map(&:to_i)
 if anchor_nums != (1..publist.size).to_a
-  error "pub-N anchors are not exactly 1..#{publist.size} (found #{anchor_nums.size})"
+  error "pub-N anchors are not 1..#{publist.size} in page order (found #{anchor_nums.size})"
 end
 
 # Titles render uniformly: the bold-when-highlighted styling was removed.

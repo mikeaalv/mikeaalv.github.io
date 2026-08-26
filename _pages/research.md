@@ -12,7 +12,7 @@ permalink: /Research/
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/researchpic/1.jpg" class="img-responsive" width="70%" style="margin: 15px auto" alt="Physiological factors (gastric emptying, glucoregulatory hormones, amylase) and lifestyle factors (diet, exercise, sleep) shaping glucose levels measured by continuous glucose monitoring." />
 
-Glycemic responses to identical meals vary across individuals and associate with metabolic subtypes (e.g., insulin resistance and beta-cell dysfunction) \[[14]({{ site.url }}{{ site.baseurl }}/Publications/#pub-14), [15]({{ site.url }}{{ site.baseurl }}/Publications/#pub-15), [16]({{ site.url }}{{ site.baseurl }}/Publications/#pub-16)\]. We aim to dissect the contributing factors — metabolic health, diet, behavior, genetics, and the microbiome — using both controlled meal challenges and real-life meals, to identify targets for reducing risk of metabolic diseases such as diabetes. We do both statistical modeling and new CGM cohort collection.
+Glycemic responses to identical meals vary across individuals and associate with metabolic subtypes (e.g., insulin resistance and beta-cell dysfunction) \[[7]({{ site.url }}{{ site.baseurl }}/Publications/#pub-7), [8]({{ site.url }}{{ site.baseurl }}/Publications/#pub-8), [9]({{ site.url }}{{ site.baseurl }}/Publications/#pub-9)\]. We aim to dissect the contributing factors — metabolic health, diet, behavior, genetics, and the microbiome — using both controlled meal challenges and real-life meals, to identify targets for reducing risk of metabolic diseases such as diabetes. We do both statistical modeling and new CGM cohort collection.
 
 ## Time-series integration and causal factors screening for metabolic health
 
