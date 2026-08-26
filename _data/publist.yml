@@ -68,7 +68,7 @@
   description: CGM preprocessing
   authors: B Ehlert, D Aron, D Perelman, Y Wu, MP Snyder
   link:
-    url: https://www.liebertpub.com/doi/abs/10.1177/15209156251374711
+    url: https://journals.sagepub.com/doi/10.1177/15209156251374711
     display:  Diabetes Technology & Therapeutics. (2025)
   highlight: false
   paper: paper
@@ -276,7 +276,7 @@ dynamics"
   description:
   authors: Ping Wu, Yue Wu, Cheng-Chen Liu, Li-Wei Liu, Fang-Fang Ma, Xiao-Yi Wu, Mian Wu, Yue-Yu Hang, Jian-Qun Chen, Zhu-Qing Shao, and Bin Wang
   link:
-    url: http://www.plantphysiol.org/content/170/4/2095
+    url: https://doi.org/10.1104/pp.15.01487
     display: Physiology 170, 2095-2109. (2016)
   highlight: false
   paper: paper

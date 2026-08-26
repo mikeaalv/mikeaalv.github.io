@@ -13,8 +13,9 @@ See the full list of publications at [Google Scholar](https://scholar.google.com
 
 <div class="publist" markdown="0">
 {%- for publi in site.data.publist %}
-<div class="pub-entry">
-<div class="pub-title">{% if publi.highlight %}<strong>{{ publi.title }}</strong>{% else %}{{ publi.title }}{% endif %}</div>
+<div class="pub-entry" id="pub-{{ forloop.rindex }}">
+<span class="pub-num">{{ forloop.rindex }}.</span>
+<div class="pub-title">{{ publi.title }}</div>
 <div class="pub-authors"><em>{{ publi.authors | strip }}</em></div>
 <div class="pub-meta">{{ publi.link.display | strip }}{% if publi.link.url %} &nbsp;<a href="{{ publi.link.url }}">{{ publi.paper | default: "paper" }}</a>{% endif %}{% if publi.code.url %} &middot; <a href="{{ publi.code.url }}">{{ publi.code.display | default: "code" }}</a>{% endif %}</div>
 {%- if publi.display2 %}

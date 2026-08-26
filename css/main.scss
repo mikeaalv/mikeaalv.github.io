@@ -39,8 +39,17 @@ pubtit {
 
 /* Compact publication list (_pages/publications.md) */
 .publist .pub-entry {
+	position: relative;
+	padding-left: 36px;
 	margin-bottom: 14px;
 	line-height: 1.35;
+}
+
+.publist .pub-num {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #777;
 }
 
 .publist .pub-authors,
@@ -57,6 +66,17 @@ pubtit {
 	color: #888;
 }
 
+/* Citation landing from /Research: #pub-N marks the cited entry */
+.publist .pub-entry {
+	scroll-margin-top: 80px;
+}
+
+.publist .pub-entry:target {
+	background: #fff3cd;
+	outline: 8px solid #fff3cd;
+	border-radius: 3px;
+}
+
 firstp {
 }
 
@@ -64,6 +84,12 @@ firstp {
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px; /* or 950px */
+}
+
+/* Justified body text on prose pages (home, research, team) */
+#homeid p,
+#textid p {
+	text-align: justify;
 }
 
 /* Home, News */

@@ -34,6 +34,27 @@ def rendered?(html, text)
   html.include?(text) || html.include?(text.gsub("&", "&amp;"))
 end
 
+# Return the element starting at start_marker through its balanced closing
+# </div>, so checks don't leak into unrelated page markup (footer, comments).
+def extract_block(html, start_marker)
+  start = html.index(start_marker)
+  return "" unless start
+  depth = 0
+  i = start
+  while (close_i = html.index("</div>", i))
+    open_i = html.index(/<div\b/, i)
+    if open_i && open_i < close_i
+      depth += 1
+      i = open_i + 4
+    else
+      depth -= 1
+      i = close_i + 6
+      return html[start...i] if depth.zero?
+    end
+  end
+  html[start..]
+end
+
 unless File.file?(PAGE)
   abort "#{PAGE} not found - run `bundle exec jekyll build` first"
 end
@@ -41,7 +62,7 @@ end
 html = File.read(PAGE, encoding: "UTF-8")
 publist = YAML.safe_load(File.read(DATA, encoding: "UTF-8"), aliases: true) || []
 
-entry_count = html.scan('<div class="pub-entry">').size
+entry_count = html.scan(/<div class="pub-entry"[^>]*>/).size
 if entry_count != publist.size
   error "expected #{publist.size} pub-entry blocks, found #{entry_count}"
 end
@@ -62,9 +83,30 @@ publist.each_with_index do |publi, i|
   end
 end
 
-pub_block = html[/<div class="publist">.*<\/div>\s*<\/div>/m].to_s
+pub_block = extract_block(html, '<div class="publist">')
+error "publist block missing from page" if pub_block.empty?
 error 'page emits empty href="" links' if pub_block.include?('href=""')
 error "kramdown escaped closing tags (raw HTML block lost markdown=\"0\"?)" if html.include?("&lt;/div&gt;")
+
+# Descending numbering: newest entry gets the highest number, oldest gets 1.
+num_count = html.scan('<span class="pub-num">').size
+if num_count != publist.size
+  error "expected #{publist.size} pub-num spans, found #{num_count}"
+end
+unless html.include?(%(<span class="pub-num">#{publist.size}.</span>)) &&
+       html.include?('<span class="pub-num">1.</span>')
+  error "pub-num spans do not run from #{publist.size}. down to 1."
+end
+
+# Every entry carries an id="pub-N" anchor matching its visible number;
+# _pages/research.md deep-links citations as /Publications/#pub-N.
+anchor_nums = html.scan(/id="pub-(\d+)"/).flatten.map(&:to_i).sort
+if anchor_nums != (1..publist.size).to_a
+  error "pub-N anchors are not exactly 1..#{publist.size} (found #{anchor_nums.size})"
+end
+
+# Titles render uniformly: the bold-when-highlighted styling was removed.
+error "publist still bolds titles (<strong> found)" if pub_block.include?("<strong>")
 
 if @errors.empty?
   puts "Publications page OK: #{entry_count} entries rendered"
