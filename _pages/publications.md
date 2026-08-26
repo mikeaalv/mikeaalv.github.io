@@ -11,18 +11,18 @@ permalink: /Publications/
 
 See the full list of publications at [Google Scholar](https://scholar.google.com/citations?user=QE1tszYAAAAJ&hl=en)
 
-{% for publi in site.data.publist %}
-  
-  <br />
-  <!-- {{ publi.title }} <br /> -->
-  {% if publi.highlight %}<strong>{{ publi.title }}</strong>{% else %}{{ publi.title }}{% endif %}<br />
-  <em>{{ publi.authors }} </em><br />
-  {{ publi.link.display }} <br />
-  {{ publi.display2 }} <br />
-  <a href="{{ publi.link.url }}">{{ publi.paper }}</a> &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %}
+<div class="publist" markdown="0">
+{%- for publi in site.data.publist %}
+<div class="pub-entry">
+<div class="pub-title">{% if publi.highlight %}<strong>{{ publi.title }}</strong>{% else %}{{ publi.title }}{% endif %}</div>
+<div class="pub-authors"><em>{{ publi.authors | strip }}</em></div>
+<div class="pub-meta">{{ publi.link.display | strip }}{% if publi.link.url %} &nbsp;<a href="{{ publi.link.url }}">{{ publi.paper | default: "paper" }}</a>{% endif %}{% if publi.code.url %} &middot; <a href="{{ publi.code.url }}">{{ publi.code.display | default: "code" }}</a>{% endif %}</div>
+{%- if publi.display2 %}
+<div class="pub-news">{{ publi.display2 }}</div>
+{%- endif %}
+</div>
+{%- endfor %}
+</div>
 
 <!-- {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}

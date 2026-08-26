@@ -32,3 +32,6 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Check rendered publications page
+        run: ruby tests/check_rendered_publications.rb

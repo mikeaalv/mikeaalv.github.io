@@ -37,6 +37,26 @@ pubtit {
 	font-weight: bold;
 }
 
+/* Compact publication list (_pages/publications.md) */
+.publist .pub-entry {
+	margin-bottom: 14px;
+	line-height: 1.35;
+}
+
+.publist .pub-authors,
+.publist .pub-meta {
+	font-size: 92%;
+}
+
+.publist .pub-authors {
+	color: #555;
+}
+
+.publist .pub-news {
+	font-size: 85%;
+	color: #888;
+}
+
 firstp {
 }
 
