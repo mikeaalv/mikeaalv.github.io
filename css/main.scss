@@ -127,6 +127,85 @@ firstp {
 }
 
 
+/* Team member cards (_pages/team.md), following erwinlab.org's layout:
+   two-column grid; each card = rounded square photo left, name / uppercase
+   role / logo links / bio right. */
+.teamlist {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 36px 44px;
+	margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+	.teamlist {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.teamlist .member-entry {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+.teamlist .member-photo {
+	width: 128px;
+	height: 128px;
+	flex-shrink: 0;
+	object-fit: cover;
+	border-radius: 16px;
+	box-shadow: 2px 2px 5px #888888;
+	margin: 0;
+}
+
+.teamlist .member-name {
+	margin: 0 0 2px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.teamlist .member-role {
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 78%;
+	font-weight: bold;
+	color: #777;
+	margin: 0 0 8px;
+}
+
+.teamlist .member-links {
+	margin: 0 0 8px;
+}
+
+.teamlist .member-links a img {
+	width: 22px;
+	height: 22px;
+	margin: 0 10px 0 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.teamlist .member-links a:hover img {
+	opacity: 0.7;
+}
+
+.teamlist .member-bio {
+	font-size: 95%;
+}
+
+.teamlist .member-bio p {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+	.teamlist .member-entry {
+		flex-direction: column;
+	}
+}
+
+
 /* Carusel */
 
 .carousel {
