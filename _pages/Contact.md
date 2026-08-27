@@ -6,4 +6,4 @@ sitemap: false
 permalink: /Contact/
 ---
 
-Yue Wu ([yuewu.mike@gmail.com](mailto:yuewu.mike@gmail.com))
+Yue Wu ([{{ site.email }}](mailto:{{ site.email }}))

@@ -4,6 +4,9 @@
   role: Principal Investigator
   photo: yuewu.jpg
   links:
+    - name: Email
+      logo: email.svg
+      url: mailto:yuewu.mike@gmail.com
     - name: GitHub
       logo: github.svg
       url: https://github.com/mikeaalv
