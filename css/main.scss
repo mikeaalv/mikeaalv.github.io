@@ -166,7 +166,9 @@ firstp {
 	font-weight: bold;
 }
 
+#textid .teamlist .member-role,
 .teamlist .member-role {
+	text-align: left; /* beat #textid p justify: keep the wrapped uppercase line ragged-right */
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-size: 78%;
