@@ -2,9 +2,10 @@
 # Validate the YAML content files in _data/.
 #
 # A syntax error in ANY _data/*.yml file breaks the whole Jekyll/GitHub Pages
-# build, so every file is parse-checked. The two files actually rendered by
-# templates (publist.yml, news.yml) are additionally checked against the
-# fields _pages/publications.md and _includes/news.html expect.
+# build, so every file is parse-checked. The files actually rendered by
+# templates (publist.yml, news.yml, research.yml, team_members.yml) are
+# additionally checked against the fields the templates in _pages/ and
+# _includes/ expect.
 #
 # Usage:
 #   ruby tests/validate_data.rb [data_dir]   # data_dir defaults to ../_data
@@ -23,6 +24,9 @@ PUBLIST_ALLOWED_KEYS = %w[
   title image description authors link highlight display2 paper code news1 news2
 ].freeze
 NEWS_ALLOWED_KEYS = %w[date headline].freeze
+RESEARCH_ALLOWED_KEYS = %w[title image width alt text].freeze
+TEAM_ALLOWED_KEYS = %w[name role photo links bio you].freeze
+TEAM_LINK_ALLOWED_KEYS = %w[name logo url].freeze
 
 @errors = []
 @warnings = []
@@ -55,8 +59,8 @@ rescue ArgumentError
 end
 
 # entry label like: entry 3 ("Modifiable Factors Affecting the...")
-def entry_label(index, entry)
-  title = entry.is_a?(Hash) ? entry["title"].to_s.strip : ""
+def entry_label(index, entry, key = "title")
+  title = entry.is_a?(Hash) ? entry[key].to_s.strip : ""
   short = title.length > 45 ? "#{title[0, 45]}..." : title
   short.empty? ? "entry #{index + 1}" : "entry #{index + 1} (\"#{short}\")"
 end
@@ -137,6 +141,71 @@ def check_news(file, entries)
   end
 end
 
+# _pages/research.md renders these fields for each research direction.
+def check_research(file, entries)
+  entries.each_with_index do |entry, i|
+    label = entry_label(i, entry)
+    unless entry.is_a?(Hash)
+      error(file, "#{label}: expected a mapping with title/image/width/alt/text fields, got #{entry.class}")
+      next
+    end
+
+    RESEARCH_ALLOWED_KEYS.each do |key|
+      error(file, "#{label}: required field `#{key}` is missing or empty") if blank?(entry[key])
+    end
+
+    if !blank?(entry["width"]) && entry["width"].to_s !~ /\A\d+%\z/
+      error(file, "#{label}: `width` must be a percentage like \"70%\", got #{entry['width'].inspect}")
+    end
+
+    (entry.keys - RESEARCH_ALLOWED_KEYS).each do |key|
+      warning(file, "#{label}: unknown field `#{key}` (typo?) — templates will silently ignore it")
+    end
+  end
+end
+
+# _pages/team.md renders these fields for each member card.
+def check_team_members(file, entries)
+  entries.each_with_index do |entry, i|
+    label = entry_label(i, entry, "name")
+    unless entry.is_a?(Hash)
+      error(file, "#{label}: expected a mapping with name/role/photo/bio fields, got #{entry.class}")
+      next
+    end
+
+    %w[name role photo bio].each do |key|
+      error(file, "#{label}: required field `#{key}` is missing or empty") if blank?(entry[key])
+    end
+
+    if entry.key?("you") && ![true, false].include?(entry["you"])
+      error(file, "#{label}: `you` must be an unquoted true or false " \
+                  "(got #{entry['you'].inspect}; note Liquid treats the string \"false\" as true)")
+    end
+
+    links = entry["links"]
+    if !links.nil? && !links.is_a?(Array)
+      error(file, "#{label}: `links` must be a list of `- name:/logo:/url:` entries")
+    elsif links.is_a?(Array)
+      links.each_with_index do |link, j|
+        unless link.is_a?(Hash)
+          error(file, "#{label}: link #{j + 1}: expected a mapping with name/logo/url, got #{link.class}")
+          next
+        end
+        TEAM_LINK_ALLOWED_KEYS.each do |key|
+          error(file, "#{label}: link #{j + 1}: required field `#{key}` is missing or empty") if blank?(link[key])
+        end
+        (link.keys - TEAM_LINK_ALLOWED_KEYS).each do |key|
+          warning(file, "#{label}: link #{j + 1}: unknown field `#{key}` (typo?)")
+        end
+      end
+    end
+
+    (entry.keys - TEAM_ALLOWED_KEYS).each do |key|
+      warning(file, "#{label}: unknown field `#{key}` (typo?) — templates will silently ignore it")
+    end
+  end
+end
+
 unless File.directory?(DATA_DIR)
   warn "ERROR: data directory not found: #{DATA_DIR}"
   exit 1
@@ -180,6 +249,8 @@ files.each do |path|
     case file
     when "publist.yml" then check_publist(file, data)
     when "news.yml" then check_news(file, data)
+    when "research.yml" then check_research(file, data)
+    when "team_members.yml" then check_team_members(file, data)
     else
       data.each_with_index do |entry, i|
         unless entry.is_a?(Hash)

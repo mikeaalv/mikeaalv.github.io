@@ -1,0 +1,37 @@
+# Research directions shown on /Research/ (_pages/research.md), in order.
+# Fields per entry:
+#   title: section heading (also becomes the section's #anchor via slugify)
+#   image: file in images/researchpic/
+#   width: rendered image width, e.g. 70%
+#   alt:   image alt text
+#   text:  section prose, markdown (rendered with markdownify)
+# CAVEAT: citation links point at /Publications/#pub-N anchors, which are
+# numbered newest-first from publist.yml — adding a paper at the top of
+# publist.yml shifts every number, so bump the citations here to match.
+- title: Postprandial glycemic response and its determinants
+  image: 1.jpg
+  width: 70%
+  alt: >-
+    Physiological factors (gastric emptying, glucoregulatory hormones, amylase)
+    and lifestyle factors (diet, exercise, sleep) shaping glucose levels
+    measured by continuous glucose monitoring.
+  text: |
+    Glycemic responses to identical meals vary across individuals and associate with metabolic subtypes (e.g., insulin resistance and beta-cell dysfunction) \[[7](/Publications/#pub-7), [8](/Publications/#pub-8), [9](/Publications/#pub-9)\]. We aim to dissect the contributing factors — metabolic health, diet, behavior, genetics, and the microbiome — using both controlled meal challenges and real-life meals, to identify targets for reducing risk of metabolic diseases such as diabetes. We do both statistical modeling and new CGM cohort collection.
+
+- title: Time-series integration and causal factors screening for metabolic health
+  image: 2.jpg
+  width: 45%
+  alt: >-
+    Microbial pathways influencing metabolic traits such as hepatic insulin
+    resistance and fasting insulin, directly and through metabolite mediation.
+  text: |
+    Human metabolisms respond dynamically to everyday perturbations (e.g., meals) on short timescales, providing natural experiments for understanding biological regulation. We develop computational methods that integrate time-series omics data to uncover how glucose dynamics shape — and are shaped by — broader metabolic processes, toward mechanistic understanding of disease and its complications.
+
+- title: Precision nutrition and AI automation
+  image: 3.jpg
+  width: 40%
+  alt: >-
+    Radar plot of glucose peaks after different carbohydrate meals, contrasting
+    insulin-resistant and insulin-sensitive individuals.
+  text: |
+    Advances in AI enable both deeper physiological insight (via foundation models) and scalable data collection and analysis (via agentic frameworks). We build models that infer metabolic health states such as insulin resistance and automate the capture and interpretation of real-life dietary records.

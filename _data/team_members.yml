@@ -1,5 +1,7 @@
 # Lab members shown on /Team/ (_pages/team.md), in order.
 # photo: file in images/teampic/  ·  logo: file in images/logopic/
+# The entry with `you: true` is the recruiting card — the template links its
+# photo and name to /Opportunities/. Keep it last; add new members above it.
 - name: Yue Wu, PhD
   role: Assistant Professor of Nutrition Science
   photo: yuewu.jpg
@@ -28,3 +30,10 @@
     PhD at [Institute of Bioinformatics](https://iob.uga.edu) at University of Georgia with [Edison Arthur S](http://edison.ccrc.uga.edu), [Arnold Jonathan](https://www.genetics.uga.edu/directory/jonathan-arnold), and [Heinz-Bernd Schüttler](https://www.physast.uga.edu/people/heinz_bernd_schuttler)
 
     Bachelor at Nanjing University
+
+- name: You?
+  you: true
+  role: Future lab member
+  photo: you.svg
+  bio: |
+    We welcome trainees from nutritional and clinical background as well as the quantitative sciences (Bioinformatics, CS, statistics, engineering). See the [opportunities to join the lab](/Opportunities/).
