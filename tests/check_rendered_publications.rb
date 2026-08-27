@@ -102,6 +102,21 @@ if anchor_nums != (1..publist.size).to_a
   error "pub-N anchors are not 1..#{publist.size} in page order (found #{anchor_nums.size})"
 end
 
+# Highlight section: every highlight: true entry is featured with its image.
+highlights = publist.select { |p| p["highlight"] }
+if highlights.any?
+  hl_block = extract_block(html, '<div class="pub-highlight">')
+  error "pub-highlight block missing from page" if hl_block.empty?
+  highlights.each do |publi|
+    label = "highlight (#{publi['title'].to_s[0, 40]}...)"
+    error "#{label}: title missing from highlight section" unless rendered?(hl_block, publi["title"].to_s)
+    if !blank?(publi["image"]) && !hl_block.include?("/images/#{publi['image']}")
+      error "#{label}: image #{publi['image']} missing from highlight section"
+    end
+  end
+  error 'highlight section emits empty src=""' if hl_block.include?('src=""')
+end
+
 # Titles render uniformly: the bold-when-highlighted styling was removed.
 error "publist still bolds titles (<strong> found)" if pub_block.include?("<strong>")
 

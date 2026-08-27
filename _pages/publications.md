@@ -9,6 +9,28 @@ permalink: /Publications/
 
 # Publications
 
+## Highlight
+
+<div class="pub-highlight" markdown="0">
+{%- for publi in site.data.publist %}
+{%- if publi.highlight %}
+{%- if publi.image %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ publi.image }}" alt="{{ publi.title }}" />
+{%- endif %}
+<div class="pub-highlight-text">
+<div class="pub-title">{{ publi.title }}</div>
+<div class="pub-authors"><em>{{ publi.authors | strip }}</em></div>
+<div class="pub-meta">{{ publi.link.display | strip }}{% if publi.link.url %} &nbsp;<a href="{{ publi.link.url }}">{{ publi.paper | default: "paper" }}</a>{% endif %}{% if publi.code.url %} &middot; <a href="{{ publi.code.url }}">{{ publi.code.display | default: "code" }}</a>{% endif %}</div>
+{%- if publi.display2 %}
+<div class="pub-news">{{ publi.display2 }}</div>
+{%- endif %}
+</div>
+{%- endif %}
+{%- endfor %}
+</div>
+
+## Full publication list
+
 See the full list of publications at [Google Scholar](https://scholar.google.com/citations?user=QE1tszYAAAAJ&hl=en)
 
 <div class="publist" markdown="0">
