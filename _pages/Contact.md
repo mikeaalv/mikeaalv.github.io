@@ -6,8 +6,4 @@ sitemap: false
 permalink: /Contact/
 ---
 
-Yue Wu (yuewu135 \[at\] stanford.edu)
-
-3165 Porter Drive,
-
-Palo Alto, CA 94304
+Yue Wu ([yuewu.mike@gmail.com](mailto:yuewu.mike@gmail.com))
