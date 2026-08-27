@@ -53,47 +53,17 @@ pubtit {
 }
 
 .publist .pub-authors,
-.publist .pub-meta,
-.pub-highlight .pub-authors,
-.pub-highlight .pub-meta {
+.publist .pub-meta {
 	font-size: 92%;
 }
 
-.publist .pub-authors,
-.pub-highlight .pub-authors {
+.publist .pub-authors {
 	color: #555;
 }
 
-.publist .pub-news,
-.pub-highlight .pub-news {
+.publist .pub-news {
 	font-size: 85%;
 	color: #888;
-}
-
-/* Highlight section: featured paper with figure (_pages/publications.md) */
-#gridid .pub-highlight {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	gap: 20px;
-	margin-bottom: 8px;
-}
-
-#gridid .pub-highlight img {
-	width: 300px;
-	max-width: 100%;
-	margin: 4px 0 0 0;
-	border-radius: 6px;
-}
-
-.pub-highlight .pub-highlight-text {
-	flex: 1;
-	min-width: 260px;
-	line-height: 1.4;
-}
-
-.pub-highlight .pub-title {
-	font-weight: bold;
 }
 
 /* Citation landing from /Research: #pub-N marks the cited entry */

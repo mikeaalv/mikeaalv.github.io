@@ -14,15 +14,18 @@ permalink: /Publications/
 <div class="pub-highlight" markdown="0">
 {%- for publi in site.data.publist %}
 {%- if publi.highlight %}
+<div class="well">
+<pubtit>{{ publi.title }}</pubtit>
 {%- if publi.image %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ publi.image }}" alt="{{ publi.title }}" />
+<p><img src="{{ site.url }}{{ site.baseurl }}/images/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" alt="{{ publi.title }}" /></p>
 {%- endif %}
-<div class="pub-highlight-text">
-<div class="pub-title">{{ publi.title }}</div>
-<div class="pub-authors"><em>{{ publi.authors | strip }}</em></div>
-<div class="pub-meta">{{ publi.link.display | strip }}{% if publi.link.url %} &nbsp;<a href="{{ publi.link.url }}">{{ publi.paper | default: "paper" }}</a>{% endif %}{% if publi.code.url %} &middot; <a href="{{ publi.code.url }}">{{ publi.code.display | default: "code" }}</a>{% endif %}</div>
+{%- if publi.description %}
+<p>{{ publi.description }}</p>
+{%- endif %}
+<p><em>{{ publi.authors | strip }}</em></p>
+<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display | strip }}</a></strong>{% if publi.code.url %} &middot; <a href="{{ publi.code.url }}">{{ publi.code.display | default: "code" }}</a>{% endif %}</p>
 {%- if publi.display2 %}
-<div class="pub-news">{{ publi.display2 }}</div>
+<p class="text-danger"><strong>{{ publi.display2 }}</strong></p>
 {%- endif %}
 </div>
 {%- endif %}
