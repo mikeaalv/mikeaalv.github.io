@@ -86,6 +86,11 @@ firstp {
   max-width: 1000px; /* or 950px */
 }
 
+/* Space between research sections */
+.researchlist > h2 ~ h2 {
+	margin-top: 32px;
+}
+
 /* Justified body text on prose pages (home, research, team) */
 #homeid p,
 #textid p {
