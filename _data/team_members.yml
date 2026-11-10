@@ -3,7 +3,7 @@
 # The entry with `you: true` is the recruiting card — the template links its
 # photo and name to /Opportunities/. Keep it last; add new members above it.
 - name: Yue Wu, PhD
-  role: Assistant Professor of Nutrition Science
+  role: Assistant Professor of Nutrition Science (Starting 2027 Jan)
   photo: yuewu.jpg
   links:
     - name: Email
