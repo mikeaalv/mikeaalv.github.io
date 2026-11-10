@@ -97,6 +97,26 @@ firstp {
 	text-align: justify;
 }
 
+/* Opportunities contact card */
+.contact-card {
+	margin-top: 32px;
+	scroll-margin-top: 80px;
+}
+
+.contact-card h2 {
+	margin-top: 0;
+	font-size: 24px;
+}
+
+#textid .contact-card p {
+	text-align: left;
+	overflow-wrap: anywhere;
+}
+
+.contact-card p:last-child {
+	margin-bottom: 0;
+}
+
 /* Home, News */
 #newsid p {
 	text-align: left;
