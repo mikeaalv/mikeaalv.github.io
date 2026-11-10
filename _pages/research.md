@@ -8,6 +8,8 @@ permalink: /Research/
 
 # Research directions
 
+Why do people respond differently to the same meal, and what can these differences reveal about metabolic health? We combine meal challenges, continuous monitoring, multi-omics, and computational models to understand this variation and inform personalized nutrition.
+
 <div class="researchlist" markdown="0">
 {%- for direction in site.data.research %}
 <h2 id="{{ direction.title | slugify }}">{{ direction.title }}</h2>
