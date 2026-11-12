@@ -12,7 +12,7 @@ We are looking for new group members with passion, talent, and grit — whether 
 
 ## Lab manager / Clinical research coordinator
 
-We are actively recruiting a lab manager and/or clinical research coordinator. You will help launch cohort studies from their earliest stages, including project management, automation, and technology development, and oversee the lab's financial and daily operations. The role offers ample opportunities to build new skills (e.g., wearables and digital health) and to grow professionally (e.g., conference presentations).
+We are actively recruiting a lab manager and/or clinical research coordinator (bachelor or master degree). You will help launch cohort studies from their earliest stages, including project management, automation, and technology development, and oversee the lab's financial and daily operations. The role offers ample opportunities to build new skills (e.g., wearables and digital health) and to grow professionally (e.g., conference presentations). Please [get in touch](#opportunities-contact) with your CV and cover letter. 
 
 ## Graduate students
 
@@ -20,7 +20,7 @@ Graduate students are welcome to [get in touch](#opportunities-contact) to discu
 
 ## Postdocs
 
-We welcome prospective postdocs completing or holding a Ph.D. and/or M.D. (or equivalent) in nutrition science, genetics, endocrinology, bioinformatics, or a related field, as well as candidates with quantitative training who work on — or want to move into — nutrition and biology. To apply, [email us](#opportunities-contact) a short cover letter describing your motivation and career goals, your CV, and contact information for three references.
+We welcome prospective postdocs completing or holding a Ph.D. and/or M.D. (or equivalent) in nutrition science, genetics, endocrinology, bioinformatics, or a related field, as well as candidates with quantitative training who work on — or want to move into — nutrition and biology. To apply, [email us](#opportunities-contact) a short cover letter describing your motivation and career goals, your CV, and contact information for three references. We expect effective communication, collaboration, and self-motivation.
 
 ## Undergraduate / master students
 
